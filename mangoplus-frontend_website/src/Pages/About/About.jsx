@@ -101,17 +101,18 @@ const About = () => {
         </div>
       </section>
 
-      {/* BENEFITS */}
-      <section className="section light">
-        <h2 className="center">{strings.benefits}</h2>
-        <ul className="benefits">
-          <li>{strings.benefit1}</li>
-          <li>{strings.benefit2}</li>
-          <li>{strings.benefit3}</li>
-          <li>{strings.benefit4}</li>
-          <li>{strings.benefit5}</li>
-        </ul>
-      </section>
+     {/* BENEFITS */}
+<section className="section light">
+  <h2 className="center">{strings.benefits}</h2>
+
+  <div className="benefits">
+    <div className="benefit-card">{strings.benefit1}</div>
+    <div className="benefit-card">{strings.benefit2}</div>
+    <div className="benefit-card">{strings.benefit3}</div>
+    <div className="benefit-card">{strings.benefit4}</div>
+    <div className="benefit-card">{strings.benefit5}</div>
+  </div>
+</section>
 
       {/* FUTURE */}
       <section className="section">

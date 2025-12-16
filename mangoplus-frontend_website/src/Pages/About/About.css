@@ -98,7 +98,7 @@
 }
 
 .card {
-  background: white;
+  background: rgb(202, 235, 55);
   padding: 30px;
   border-radius: 14px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
@@ -116,22 +116,35 @@
 }
 
 .chips span {
-  background: #eafaf1;
+  background: #e3ec39;
   padding: 12px 20px;
   border-radius: 25px;
   font-weight: 500;
 }
 
 /* BENEFITS */
+/* BENEFITS */
 .benefits {
-  max-width: 600px;
+  max-width: 800px;
   margin: 30px auto 0;
-  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
 
-.benefits li {
-  padding: 10px 0;
+.benefit-card {
+  background: #e8f466;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   font-size: 1.05rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 /* FOOTER */

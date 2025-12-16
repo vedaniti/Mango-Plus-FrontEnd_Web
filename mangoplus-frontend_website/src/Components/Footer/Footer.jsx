@@ -28,7 +28,9 @@ const Footer = () => {
           <h4>Contact Info</h4>
           <p>📧 support@mangoplus.com</p>
           <p>📞 --</p>
-          <p>📍 Pune, Maharashtra</p>
+          <p>📍 Pokharapur,</p>
+          <p>Mohod, Maharashtra,</p>
+          <p>India - 413248</p>
         </div>
         
          {/* SOCIAL MEDIA */}
