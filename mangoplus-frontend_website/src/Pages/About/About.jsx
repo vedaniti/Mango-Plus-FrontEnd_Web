@@ -41,8 +41,8 @@ const About = () => {
     future2: "Drone-based field monitoring",
     future3: "Blockchain for supply chain transparency",
     contactUs: "Contact Us",
-    companyEmail: "📧 contact@mangoplus.com",
-    phone: "📞 +91 9876543210",
+    companyEmail: "📧 support@mangoplus.com",
+    phone: "📞 --",
     copyright: "© 2025 Mango Plus. All rights reserved.",
   };
 

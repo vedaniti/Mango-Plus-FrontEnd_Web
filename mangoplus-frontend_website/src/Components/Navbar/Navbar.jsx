@@ -11,12 +11,13 @@ function Navbar() {
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/about" className="nav-link">About</Link>
           <Link to="/contact" className="nav-link">Contact</Link>
+          <Link to="/download" className="nav-link">Download</Link>
         </div>
         
-        <div className="navbar-actions">
+        {/* <div className="navbar-actions">
           <button className="nav-button">Login</button>
           <button className="nav-button primary">Sign Up</button>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

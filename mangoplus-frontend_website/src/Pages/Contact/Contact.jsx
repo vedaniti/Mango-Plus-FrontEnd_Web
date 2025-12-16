@@ -32,21 +32,21 @@ const Contact = () => {
         <div className="contact-info">
           <div className="info-card">
             <h3>📞 Phone</h3>
-            <p>+91 9876543210</p>
-            <p>Mon-Sat: 9 AM - 7 PM</p>
+            {/* <p>--</p> */}
+            <p>Mon-Sat: 24 hrs</p>
           </div>
           
           <div className="info-card">
             <h3>📧 Email</h3>
-            <p>info@mangoplus.com</p>
-            <p>orders@mangoplus.com</p>
+            <p>support@mangoplus.com</p>
+          
           </div>
           
           <div className="info-card">
             <h3>📍 Address</h3>
-            <p>Mango Plaza,</p>
-            <p>Mumbai, Maharashtra</p>
-            <p>India - 400001</p>
+            <p>Pokharapur </p>
+            <p>Mohod, Maharashtra</p>
+            <p>India - 413248</p>
           </div>
         </div>
         

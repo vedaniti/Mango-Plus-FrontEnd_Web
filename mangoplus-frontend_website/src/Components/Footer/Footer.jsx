@@ -26,9 +26,9 @@ const Footer = () => {
         
         <div className="footer-section">
           <h4>Contact Info</h4>
-          <p>📧 info@mangoplus.com</p>
-          <p>📞 +91 9876543210</p>
-          <p>📍 Mumbai, Maharashtra</p>
+          <p>📧 support@mangoplus.com</p>
+          <p>📞 --</p>
+          <p>📍 Pune, Maharashtra</p>
         </div>
         
          {/* SOCIAL MEDIA */}
@@ -56,6 +56,7 @@ const Footer = () => {
       
       <div className="footer-bottom">
         <p>© 2025 Mango Plus. All rights reserved. | Made with ❤️ in India</p>
+        <p>Developed by Vedaniti Technologies PVT LTD</p>
       </div>
     </footer>
   );

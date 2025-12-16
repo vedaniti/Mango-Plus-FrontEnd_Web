@@ -40,8 +40,8 @@ const Home = () => {
       </div>
       
       <div className="home-cta">
-        <button className="home-button">Join Now</button>
-        <button className="home-button secondary">Watch Demo</button>
+        <button className="home-button">Watch Demo</button>
+        <button className="home-button secondary">Download Now</button>
       </div>
     </div>
   );
