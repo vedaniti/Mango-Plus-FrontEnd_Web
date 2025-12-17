@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import mangoLogo from "./assets/mangoplus_logo.png";
 import farmBackground from "./assets/farmbackground.jpeg";
-import targetImage from "./assets/target.jpeg";
+import targetImage from "./assets/Digital transformation.png";
 
 const About = () => {
   const navigate = useNavigate();
