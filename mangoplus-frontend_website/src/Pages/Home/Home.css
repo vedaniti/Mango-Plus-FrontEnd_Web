@@ -31,7 +31,7 @@
 }
 
 .service-card {
-  background: white;
+  background:linear-gradient(135deg, #27ae60, #2ecc71);
   padding: 30px 25px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -70,8 +70,8 @@
 
 .service-button {
   background: transparent;
-  color: #3498db;
-  border: 2px solid #3498db;
+  color: #cc341d;
+  border: 2px solid #bfc7ca;
   padding: 10px 20px;
   border-radius: 8px;
   font-weight: 600;
