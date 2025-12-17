@@ -73,11 +73,15 @@
 .section h2 {
   font-size: 2.2rem;
   margin-bottom: 20px;
+  color: #ae2737;
 }
 
+
+
 .section p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   line-height: 1.7;
+  color: floralwhite;
 }
 
 .center {
