@@ -5,14 +5,16 @@
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, #27ae60, #2ecc71);
-  padding: 80px 20px;
+  /* background: linear-gradient(135deg, #27ae60, #2ecc71); */
+  padding: 10px 20px;
   text-align: center;
   color: white;
+   overflow: hidden;
 }
 
 .hero-logo {
-  width: 300px;
+  height: 400px;
+  width: 400px;
   margin-bottom: 20px;
 }
 
@@ -29,6 +31,21 @@
 .hero-desc {
   max-width: 700px;
   margin: 15px auto 30px;
+}
+
+.slide-in {
+  animation: slideFromLeft 1.2s ease-out forwards;
+}
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-120%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .primary-btn {
@@ -50,7 +67,7 @@
 }
 
 .section.light {
-  background: #f7f9fa;
+  /* background: #f7f9fa; */
 }
 
 .section h2 {
@@ -73,20 +90,65 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
+  overflow: hidden;
 }
 
 .grid.reverse {
-  direction: rtl;
+  grid-template-columns: 1fr 1fr;
 }
 
-.grid.reverse * {
-  direction: ltr;
+.grid.reverse img {
+  order: 1; /* image on left */
+}
+
+.grid.reverse div {
+  order: 2; /* text on right */
 }
 
 .section-img {
   width: 100%;
   border-radius: 14px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.slide-Left {
+  animation: slideFromRight 1.2s ease-out forwards;
+}
+@keyframes slideFromRight {
+   0% {
+    transform: translateX(120%) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.slide-Right {
+  animation: slideFromLeft 1.2s ease-out forwards;
+}
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-120%) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid.reverse img,
+  .grid.reverse div {
+    order: unset;
+  }
 }
 
 /* CARDS */
@@ -149,7 +211,7 @@
 
 /* FOOTER */
 .footer-c {
-  background: #3b502c;
+  background: #536f3e;
   color: white;
   text-align: center;
   padding: 50px 20px;

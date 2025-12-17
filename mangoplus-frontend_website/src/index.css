@@ -18,9 +18,16 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
+ background: linear-gradient(
+    135deg,
+    #4bd605d4,   /* bright green */
+    #2ecc71,    /* fresh green */
+    #27ae60     /* deep green */
+  );
+
+    color: #333;
   min-height: 100vh;
+
 }
 
 #root {

@@ -51,7 +51,7 @@ const About = () => {
       {/* HERO SECTION */}
       <section className="hero">
         <div className="hero-content">
-          <img src={mangoLogo} alt="Mango Plus" className="hero-logo" />
+          <img src={mangoLogo} alt="Mango Plus" className="hero-logo slide-in" />
           <h1>{strings.title}</h1>
           <p className="hero-tagline">{strings.tagline}</p>
           <p className="hero-desc">{strings.descriptionShort}</p>
@@ -67,12 +67,12 @@ const About = () => {
           <h2>{strings.aboutMangoPlus}</h2>
           <p>{strings.aboutMangoPlusText}</p>
         </div>
-        <img src={farmBackground} alt="Farm" className="section-img" />
+        <img src={farmBackground} alt="Farm" className="section-img slide-Left" />
       </section>
 
       {/* MISSION */}
       <section className="section grid reverse">
-        <img src={targetImage} alt="Mission" className="section-img" />
+        <img src={targetImage} alt="Mission" className="section-img slide-Right" />
         <div>
           <h2>{strings.ourMission}</h2>
           <p>{strings.ourMissionText}</p>
