@@ -62,10 +62,10 @@ return (
             <h3>5,000+</h3>
             <p>Farmers Connected</p>
           </div>
-          <div className="stat">
+          {/* <div className="stat">
             <h3>₹50+ Crore</h3>
             <p>Total Transactions</p>
-          </div>
+          </div> */}
           <div className="stat">
             <h3>100+ Cities</h3>
             <p>Service Coverage</p>

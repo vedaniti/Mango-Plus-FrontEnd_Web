@@ -21,7 +21,6 @@ const About = () => {
     ourMissionText:
       "To empower farmers with technology, connect them directly with buyers, and revolutionize the agricultural supply chain through digital transformation.",
     keyFeatures: "Key Features",
-    feature1: "Real-time market prices and demand analytics",
     feature2: "Direct farmer-to-merchant trading platform",
     feature3: "Integrated logistics and supply chain management",
     feature4: "Access to agricultural financing and insurance",
@@ -83,7 +82,7 @@ const About = () => {
       <section className="section light">
         <h2 className="center">{strings.keyFeatures}</h2>
         <div className="cards">
-          <div className="card">📊 {strings.feature1}</div>
+        
           <div className="card">🤝 {strings.feature2}</div>
           <div className="card">🚚 {strings.feature3}</div>
           <div className="card">💰 {strings.feature4}</div>

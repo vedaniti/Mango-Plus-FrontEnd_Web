@@ -70,7 +70,7 @@
 
 .service-button {
   background: transparent;
-  color: #cc341d;
+  color: #e6dbd9;
   border: 2px solid #bfc7ca;
   padding: 10px 20px;
   border-radius: 8px;
@@ -97,9 +97,9 @@
   background-color: #27ae60;
   color: white;
   border: none;
-  padding: 15px 40px;
+  padding: 15px 10px;
   font-size: 1.1rem;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: bold;
@@ -107,7 +107,7 @@
 }
 
 .home-button:hover {
-  background-color: #219653;
+  background-color: #bb481e;
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(39, 174, 96, 0.3);
 }
@@ -117,7 +117,7 @@
 }
 
 .home-button.secondary:hover {
-  background-color: #2980b9;
+  background-color: #d3430f;
 }
 
 @media (max-width: 768px) {

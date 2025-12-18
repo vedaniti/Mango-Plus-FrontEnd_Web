@@ -40,8 +40,8 @@ const Home = () => {
       </div>
       
       <div className="home-cta">
-        <button className="home-button">Watch Demo</button>
-        <button className="home-button secondary">Download Now</button>
+        <button className="home-button">▶️ Watch Demo</button>
+        <button className="home-button secondary"> 📱 Download Android Application </button>
       </div>
     </div>
   );

@@ -45,7 +45,7 @@ const Contact = () => {
           <div className="info-card">
             <h3>📍 Address</h3>
             <p>Pokharapur </p>
-            <p>Mohod, Maharashtra</p>
+            <p>Mohol, Maharashtra</p>
             <p>India - 413248</p>
           </div>
         </div>
